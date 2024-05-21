@@ -1,0 +1,19 @@
+p=int(input("enter your first number\n"))
+q=int(input("enter your second number\n"))
+r=int(input("enter 1 for addition\nenter 2 for substraction\nenter 3 for multiplication\nenter4 for division\nenter 5 for exponential\nenter 6 for floor division\nenter 7 for modulus\n"))
+if r== 1:
+  print(p+q)
+elif r== 2:
+  print(p-q)
+elif r== 3:
+  print(p*q)
+elif r== 4:
+  print(p/q)
+elif r== 5:
+  print(p**q)
+elif r== 6:
+  print(p//q)
+elif r== 7:
+  print(p%q)
+else:
+  print("wrong choice")
